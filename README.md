@@ -28,7 +28,7 @@ An instance of RHCOS is created and HAproxy is up and running. You may verify su
 * Run `make infra` to create the RHCOS VM
 * Run `make destroy` to destroy the RHCOS VM
 
-> For full details on using `yamldecode` to read in configuration review the follow [blog post](https://blog.ktz.me/store-terraform-secrets-in-yaml-files-with-yamldecode/).
+> For full details on using `yamldecode` to read in configuration review the follow [blog post](https://blog.ktz.me/store-terraform-secrets-in-yaml-files-with-yamldecode/). See `vsphere.yaml.example` for example syntax of this method.
 
 ## Notes
 
