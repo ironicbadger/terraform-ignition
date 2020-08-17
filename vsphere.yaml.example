@@ -1,3 +1,9 @@
+# See the following blog post for an explanation
+# https://blog.ktz.me/store-terraform-secrets-in-yaml-files-with-yamldecode/
+
+# File is expected to live in `~/.config/vsphere.yaml` but could live anywhere
+# where secrets are considered safe on disk. Note this file is stored in plain-text.
+
 vsphere-user: administrator@vsphere.local
 vsphere-password: "somethingsupersecret1!"
 vsphere-server: 192.168.1.55
