@@ -6,6 +6,3 @@ worker_ips = ["192.168.1.164", "192.168.1.165"]
 
 ## MAC addresses
 loadbalancer_mac = ["00:50:56:b1:ef:ac"]
-bootstrap_mac = ["00:50:56:b1:c7:ae"]
-master_macs = ["00:50:56:b1:c7:ba", "00:50:56:b1:c7:bb", "00:50:56:b1:c7:bc"]
-worker_macs = ["00:50:56:b1:c7:ca", "00:50:56:b1:c7:cb"]
