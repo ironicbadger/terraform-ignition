@@ -8,9 +8,10 @@ An instance of RHCOS is created and HAproxy is up and running. You may verify su
 
 ## Usage
 
-* Modify `infra/production/terraform.tfvars` as required.
-* Run `make tfinit` to initialise the Terraform modules and providers.
-* Run `make infra` to create the RHCOS VM.
+* Modify `infra/production/terraform.tfvars` as required
+* Run `make tfinit` to initialise the Terraform modules and providers
+* Run `make infra` to create the RHCOS VM
+* Run `make destroy` to destroy the RHCOS VM
 
 > For full details on using `yamldecode` to read in configuration review the follow [blog post](https://blog.ktz.me/store-terraform-secrets-in-yaml-files-with-yamldecode/).
 
