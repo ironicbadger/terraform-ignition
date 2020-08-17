@@ -1,5 +1,5 @@
 module "lb" {
-  source        = "../../modules/vmware/ign_haproxy"
+  source        = "../../modules/ign_haproxy"
   lb_ip_address = var.loadbalancer_ip
 
   api_backend_addresses = flatten([
@@ -10,7 +10,7 @@ module "lb" {
 }
 
 module "lb_vm" {
-  source           = "../../modules/vmware/rhcos"
+  source           = "../../modules/rhcos"
   count            = length(var.loadbalancer_mac)
   name             = "prod-lb-example"
   folder           = "awesomo/redhat"
