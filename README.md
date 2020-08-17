@@ -15,3 +15,6 @@ An instance of RHCOS is created and HAproxy is up and running. You may verify su
 
 > For full details on using `yamldecode` to read in configuration review the follow [blog post](https://blog.ktz.me/store-terraform-secrets-in-yaml-files-with-yamldecode/).
 
+## Notes
+
+This code was originally written as part of an OpenShift 4 deployment, the code for that is in [this repo](https://github.com/IronicBadger/ocp4).
