@@ -3,7 +3,7 @@ tfinit:
 	cd modules/ign_haproxy; terraform init
 	cd modules/rhcos; terraform init
 
-infra:
+create:
 	cd infra/production; terraform apply
 
 destroy:
