@@ -1,7 +1,7 @@
 tfinit:
 	cd infra/production; terraform init
-	cd modules/vmware/ign_haproxy; terraform init
-	cd modules/vmware/rhcos; terraform init
+	cd modules/ign_haproxy; terraform init
+	cd modules/rhcos; terraform init
 
 infra:
 	cd infra/production; terraform apply
