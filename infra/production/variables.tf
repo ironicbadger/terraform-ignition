@@ -44,18 +44,6 @@ variable "loadbalancer_mac" {
   type        = list(string)
 }
 
-variable "bootstrap_mac" {
-  type        = list(string)
-}
-
-variable "master_macs" {
-  type        = list(string)
-}
-
-variable "worker_macs" {
-  type        = list(string)
-}
-
 variable "master_ips" {
   type    = list(string)
   default = []
