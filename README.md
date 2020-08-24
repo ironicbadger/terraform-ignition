@@ -2,6 +2,8 @@
 
 This repo contains examples of using Terraform 0.13 to create a Red Hat CoreOS image running HAproxy in a container.
 
+> NOTE: Red Hat CoreOS ships as a component of OpenShift Container Platform. Therefore using RHCOS in this fashion is not supported and these scripts are provided for educational purposes only.
+
 ```bash
 [core@haproxy ~]$ systemctl status haproxy -l
 ● haproxy.service - haproxy
